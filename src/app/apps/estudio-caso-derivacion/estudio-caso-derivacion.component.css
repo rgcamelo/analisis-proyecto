@@ -1,0 +1,9 @@
+.opselect{
+    background-color: #316ce8;
+    color: white;
+    font-weight: 600;
+}
+
+.op{
+    cursor: pointer;
+}

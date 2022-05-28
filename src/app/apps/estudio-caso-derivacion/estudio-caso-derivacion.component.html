@@ -1,0 +1,57 @@
+<div
+  class="banner-innerpage"
+  style="background-image: url(assets/images/landingpage/banner-bg2.jpg)"
+>
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 no-trans align-self-center text-center">
+        <h1 class="title">Estudio de Caso - Derivación</h1>
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================== -->
+<!-- Feature 22  -->
+<!-- ============================================================== -->
+
+<div class="spacer">
+  <div class="container">
+    <div class="row m-t-40 justify-content-center">
+        <div class="col-3 no-trans">
+            <ul class="list-group">
+                <li (click)="seleccionarOpcion(1)" [ngClass]="opcionSeleccionada == 1 ? 'opselect' : ''" class="list-group-item op">Ver Infografia</li>
+                <li (click)="seleccionarOpcion(2)" [ngClass]="opcionSeleccionada == 2 ? 'opselect' : ''" class="list-group-item op">Ver Algoritmo</li>
+              </ul>
+        </div>
+        <div class="col-9 no-trans">
+            <div *ngIf="opcionSeleccionada == 1" class="card mb-3 no-trans">
+                <div class="row no-gutters">
+                  <div class="col-12 no-trans">
+                    <div class="card-body text-center">
+                      <h5 class="card-title title">Infografia</h5>
+                      <p class="card-text texto-card text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, voluptate. Dolore placeat beatae veritatis pariatur molestias velit, fugiat cumque, corrupti tenetur voluptate ea quidem atque id rem accusamus sunt iusto.</p>
+                      <button class="btn btn-primary">Ver mas</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div *ngIf="opcionSeleccionada == 2" class="card mb-3 no-trans">
+                <div class="row no-gutters">
+                  <div class="col-12 no-trans">
+                    <div class="card-body text-center">
+                      <h5 class="card-title title">Algoritmo</h5>
+                      <p class="card-text texto-card text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, voluptate. Dolore placeat beatae veritatis pariatur molestias velit, fugiat cumque, corrupti tenetur voluptate ea quidem atque id rem accusamus sunt iusto.</p>
+                      <button class="btn btn-primary">Ver mas</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Column -->
+    </div>
+  </div>
+</div>

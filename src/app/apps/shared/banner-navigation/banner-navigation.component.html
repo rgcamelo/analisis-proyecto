@@ -1,0 +1,41 @@
+<div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
+    <ul class="navbar-nav ml-auto  align-items-center">
+
+
+        <li class="nav-item">
+            <div class="dropdown">
+                <a class="nav-link option" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                    Derivación
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Introducción</a>
+                  <a class="dropdown-item" routerLink="/estudio-caso-derivacion">Estudio de Caso</a>
+                  <a class="dropdown-item" href="#">Solución</a>
+                </div>
+              </div>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <div class="dropdown">
+                <a class="nav-link option" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                    Integración
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Introducción</a>
+                  <a class="dropdown-item" href="#">Estudio de Caso</a>
+                  <a class="dropdown-item" href="#">Solución</a>
+                </div>
+              </div>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <a class="nav-link option" routerLink="/about">
+                Referencias
+            </a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <a class=" btn btn-accion option nav-link" routerLink="/solucion">
+                Solución
+            </a>
+        </li>
+    </ul>
+
+</div>

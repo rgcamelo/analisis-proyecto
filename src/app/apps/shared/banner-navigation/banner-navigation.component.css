@@ -1,0 +1,26 @@
+.active {
+    color: yellow;
+  }
+
+  .btn-accion{
+    background: #a8a6a1;
+    border: 1px solid #a8a6a1;
+    border-radius: .4rem;
+    transition: 0.2s ease-in;
+    height: 21px;
+    line-height: 1.2em;
+    padding-top: 14px !important;
+    padding-bottom: 31px !important;
+  }
+
+  .btn-accion:hover{
+    transition: .1s opacity linear;
+  }
+
+  .option{
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+  }
