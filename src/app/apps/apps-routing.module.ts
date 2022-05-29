@@ -30,8 +30,8 @@ const routes: Routes = [
       { path: 'introduccion-integracion',component:IntroduccionIntegracionComponent},
       { path: 'estudio-caso-diferenciacion',component:EstudioCasoDerivacionComponent},
       { path: 'estudio-caso-integracion',component:EstudioCasoIntroduccionComponent},
-      { path: 'solucion-diferenciacion',component:SolucionDiferenciacionComponent},
-      { path: 'solucion-integracion', component:SolucionIntroduccionComponent},
+      { path: 'solucion-diferenciacion/:n',component:SolucionDiferenciacionComponent},
+      { path: 'solucion-integracion/:n', component:SolucionIntroduccionComponent},
     ]
   }
 ];

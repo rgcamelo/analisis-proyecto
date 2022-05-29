@@ -1,0 +1,7 @@
+.fondo{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/assets/images/analisis/6.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

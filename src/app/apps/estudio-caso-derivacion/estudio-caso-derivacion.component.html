@@ -1,6 +1,5 @@
 <div
-  class="banner-innerpage"
-  style="background-image: url(assets/images/landingpage/banner-bg2.jpg)"
+  class="banner-innerpage fondo"
 >
   <div class="container">
     <!-- Row  -->
@@ -24,7 +23,7 @@
     </div>
     <div class="col">
         <div class="row justify-content-end p-5">
-            <div class="btn btn-outline-dark" routerLink="/solucion-diferenciacion">
+            <div class="btn btn-outline-dark" routerLink="/solucion-diferenciacion/1">
                 <img class="img-next" src="assets/images/arrow/derecha.png"alt="...">
             </div>
         </div>
@@ -40,7 +39,7 @@
         <div class="col-3 no-trans">
             <ul class="list-group">
                 <li (click)="seleccionarOpcion(1)" [ngClass]="opcionSeleccionada == 1 ? 'opselect' : ''" class="list-group-item op">Ver Estudio de Caso</li>
-                <li (click)="seleccionarOpcion(2)" [ngClass]="opcionSeleccionada == 2 ? 'opselect' : ''" class="list-group-item op">Ver Algoritmo</li>
+                <li routerLink="/solucion-diferenciacion/1" (click)="seleccionarOpcion(2)" [ngClass]="opcionSeleccionada == 2 ? 'opselect' : ''" class="list-group-item op">Ver Algoritmo</li>
               </ul>
         </div>
         <div class="col-9 no-trans">
@@ -50,13 +49,32 @@
                       <div class="row">
                           <div class="col-12 col-md-6 no-trans">
                             <div class="card-body text-center">
-                                <h5 class="card-title title">Infografia</h5>
-                                <p class="card-text texto-card text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, voluptate. Dolore placeat beatae veritatis pariatur molestias velit, fugiat cumque, corrupti tenetur voluptate ea quidem atque id rem accusamus sunt iusto.</p>
-                                <button class="btn btn-primary">Ver mas</button>
+                                <p class="card-text texto-card text text-justify d">
+                                    Para un estudio geológico de un yacimiento de magnetitas, una empresa geológica que obtiene vanadio como coproducto del tratamiento de titanomagnetitas, produce mensualmente 5 toneladas de este metal, donde el costo marginal es el mínimo, este costo “C” está dado por: 
+                                </p>
+
+                                <br>
+
+                                <div class="col-md-12 no-trans">
+                                    <img class="img-thumbnail" src="/assets/images/analisis/18.jpg" alt="...">
+                                </div>
+
+                                <br>
+
+                                <p class="card-text texto-card text text-justify d">
+                                    Sabiendo que el costo mínimo es de 5 toneladas, Calcular la primera derivada hacia adelante, central y hacia atrás de  C(x) en: 
+Xo=5               h=0,01
+                                </p>
+
                               </div>
                           </div>
                           <div class="col-12 col-md-6 no-trans">
-                            <img class="img-thumbnail" src="assets/images/landingpage/banner-bg.jpg" alt="...">
+                            <img class="img-thumbnail" src="/assets/images/analisis/17.gif" alt="...">
+                            <br>
+                            <a target="_blank" href="http://www.rinconsolidario.org/minerales/imagenes/yacmag.gif">
+                                <small >Yacimiento de magnetitas. (s. f.). [Ilustración]. rinconsolidario.org. http://www.rinconsolidario.org/minerales/imagenes/yacmag.gif</small>
+                            </a>
+                            
                         </div>
                       </div>
                     

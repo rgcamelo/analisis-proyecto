@@ -2,3 +2,23 @@
     width: 25px;
     height: 25px;
 }
+
+.fondo{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/assets/images/analisis/4.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d{
+    font-size: 20px;
+    color: black;
+}
+.t{
+    font-size: 34px;
+}
+.s{
+    font-size: 26px;
+    color: black;
+}

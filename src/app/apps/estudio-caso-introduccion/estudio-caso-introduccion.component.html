@@ -1,6 +1,5 @@
 <div
-  class="banner-innerpage"
-  style="background-image: url(assets/images/landingpage/banner-bg2.jpg)"
+  class="banner-innerpage fondo"
 >
   <div class="container">
     <!-- Row  -->
@@ -24,7 +23,7 @@
     </div>
     <div class="col">
         <div class="row justify-content-end p-5">
-            <div class="btn btn-outline-dark" routerLink="/solucion-integracion">
+            <div class="btn btn-outline-dark" routerLink="/solucion-integracion/2">
                 <img class="img-next" src="assets/images/arrow/derecha.png"alt="...">
             </div>
         </div>
@@ -40,7 +39,7 @@
         <div class="col-3 no-trans">
             <ul class="list-group">
                 <li (click)="seleccionarOpcion(1)" [ngClass]="opcionSeleccionada == 1 ? 'opselect' : ''" class="list-group-item op">Ver Estudio de Caso</li>
-                <li (click)="seleccionarOpcion(2)" [ngClass]="opcionSeleccionada == 2 ? 'opselect' : ''" class="list-group-item op">Ver Algoritmo</li>
+                <li routerLink="/solucion-integracion/2" [ngClass]="opcionSeleccionada == 2 ? 'opselect' : ''" class="list-group-item op">Ver Algoritmo</li>
               </ul>
         </div>
         <div class="col-9 no-trans">
@@ -50,15 +49,66 @@
                       <div class="row">
                           <div class="col-12 col-md-6 no-trans">
                             <div class="card-body text-center">
-                                <h5 class="card-title title">Infografia</h5>
-                                <p class="card-text texto-card text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, voluptate. Dolore placeat beatae veritatis pariatur molestias velit, fugiat cumque, corrupti tenetur voluptate ea quidem atque id rem accusamus sunt iusto.</p>
-                                <button class="btn btn-primary">Ver mas</button>
+                                <p class="card-text texto-card text d text-justify">
+                                    Un Estudio de Suelo, también conocido como Estudio Geotécnico, es un conjunto de actividades que nos permiten obtener la información de un determinado terreno.
+                                </p>
+
+                                <p class="card-text texto-card text d text-justify">
+                                    <b>“El estudio geotécnico se realiza previamente al proyecto de un edificio y tiene por objeto determinar la naturaleza y propiedades del terreno, necesarios para definir el tipo y condiciones de cimentación” (Rodríguez Ortiz y otros, 1984)."</b>
+                                </p>
+
+                                <p class="card-text texto-card text d text-justify">
+                                    En resumen podríamos decir que lo más recomendable es construir sobre un suelo resistente que cumpla todas (o la mayoría) de las condiciones descritas  de la siguiente tabla. 
+                                </p>
+
+                                
                               </div>
                           </div>
                           <div class="col-12 col-md-6 no-trans">
-                            <img class="img-thumbnail" src="assets/images/landingpage/banner-bg.jpg" alt="...">
+                            <img class="img-thumbnail" src="assets/images/analisis/19.jpg" alt="...">
+                            
                         </div>
                       </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 no-trans">
+                          <div class="card-body text-center">
+                              <p class="card-text texto-card text d text-justify">
+                                En dado caso, se intentará evadir lo más que se pueda el suelo malo que evite las consecuencias en lo que respecta al proyecto y que este no se vaya a pérdidas por terreno no apto. 
+                              </p> 
+                              <p class="card-text texto-card text d text-justify">
+                                Se hace un estudio de suelos en una área donde se quiere realizar una obra, en esta se busca hallar un terreno aceptable aproximado para empezar la construcción del mismo. Los valores de las mediciones realizadas se obtuvieron en distancias de 4 km. 
+                              </p>  
+                              <br>
+
+                              <div class="col-md-12 no-trans">
+                                  <img class="img-thumbnail" src="assets/images/analisis/21.jpg" alt="...">
+                                  <br>
+
+                              </div>
+
+                              <br>  
+                               
+                                           
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 no-trans">
+                          <img class="img-thumbnail" src="assets/images/analisis/20.jpg" alt="...">
+                          <a target="_blank" href="https://rennovaingeniería.com/wp-content/uploads/elementor/thumbs/perf14-p1cyztr0j30bjz2t5jdvnv8i6dbgpvaaoycyw49tug.jpeg">
+                            <small >https://rennovaingeniería.com/wp-content/uploads/elementor/thumbs/perf14-p1cyztr0j30bjz2t5jdvnv8i6dbgpvaaoycyw49tug.jpeg     </small>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 no-trans">
+                            <p class="card-text texto-card text d text-justify">
+                                Con la siguiente ecuación de Simpson, encontrar el aproximado de área total no apta para la construcción.
+                            </p> 
+                        </div>
+                        <br>       
+                            <div class="col-md-12 no-trans">
+                                <img class="img-thumbnail" src="assets/images/analisis/23.jpg" alt="...">
+                            </div> 
+                    </div>
                     
                   </div>
                 </div>

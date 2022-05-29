@@ -1,6 +1,5 @@
 <div
-  class="banner-innerpage"
-  style="background-image: url(assets/images/landingpage/banner-bg2.jpg)"
+  class="banner-innerpage fondo"
 >
   <div class="container">
     <!-- Row  -->
@@ -21,26 +20,11 @@
 <div class="spacer feature22">
   <div class="container">
     <div class="list-group">
-      <a target="_blank" href="#" class="list-group-item list-group-item-action">
+      <a *ngFor="let referencia of referencias" target="_blank"  [href]="referencia.link" class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Referencia 1</h5>
+          <h5 class="mb-1">{{referencia.id}}. {{referencia.nombreReferencias}}</h5>
         </div>
-        <p class="mb-1">link referencia</p>
-        <small>And some small print.</small>
-      </a>
-      <a target="_blank" href="#" class="list-group-item list-group-item-action">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">List group item heading</h5>
-        </div>
-        <p class="mb-1">Some placeholder content in a paragraph.</p>
-        <small class="text-muted">And some muted small print.</small>
-      </a>
-      <a target="_blank" href="#" class="list-group-item list-group-item-action">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">List group item heading</h5>
-        </div>
-        <p class="mb-1">Some placeholder content in a paragraph.</p>
-        <small class="text-muted">And some muted small print.</small>
+        <p class="mb-1">{{referencia.link}}</p>
       </a>
     </div>
   </div>

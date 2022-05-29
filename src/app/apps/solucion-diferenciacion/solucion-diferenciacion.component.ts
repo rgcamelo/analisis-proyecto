@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-solucion-diferenciacion',
@@ -9,9 +10,16 @@ export class SolucionDiferenciacionComponent implements OnInit {
 
   opcionSeleccionada:number =1;
 
-  constructor() { }
+  constructor(activatedRouter: ActivatedRoute) {
+    let n = activatedRouter.snapshot.paramMap.get('n');
+    if (n) {
+      this.opcionSeleccionada = parseInt(n);
+    }
+   }
 
   ngOnInit(): void {
+
+
   }
 
   seleccionarOpcion(op:number){
