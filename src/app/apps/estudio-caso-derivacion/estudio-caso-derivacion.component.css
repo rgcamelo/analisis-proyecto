@@ -7,3 +7,8 @@
 .op{
     cursor: pointer;
 }
+
+.img-next{
+    width: 25px;
+    height: 25px;
+}

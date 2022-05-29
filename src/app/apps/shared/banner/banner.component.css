@@ -8,3 +8,8 @@
     font-style: normal;
     font-size: 3rem;
 }
+
+.barra{
+    height: 58px !important;
+    padding: 0.5rem !important;
+}

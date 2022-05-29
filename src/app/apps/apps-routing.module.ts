@@ -9,6 +9,8 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 import { FullComponent } from './layout/full/full.component';
 import { SolutionComponent } from './solution/solution.component';
 import { EstudioCasoDerivacionComponent } from './estudio-caso-derivacion/estudio-caso-derivacion.component';
+import { IntroduccionDiferenciacionComponent } from './introduccion-diferenciacion/introduccion-diferenciacion.component';
+import { SolucionDiferenciacionComponent } from './solucion-diferenciacion/solucion-diferenciacion.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,10 @@ const routes: Routes = [
       { path: 'blogDetail/:id', component: BlogDetailComponent },
       { path: 'about', component: AboutComponent },
       { path: 'solucion', component:SolutionComponent},
-      { path: 'estudio-caso-derivacion',component:EstudioCasoDerivacionComponent},
+      { path: 'introduccion-diferenciacion',component:IntroduccionDiferenciacionComponent},
+      { path: 'estudio-caso-diferenciacion',component:EstudioCasoDerivacionComponent},
+      { path: 'solucion-diferenciacion',component:SolucionDiferenciacionComponent},
+
     ]
   }
 ];

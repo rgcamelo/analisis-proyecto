@@ -22,6 +22,8 @@ import { BannerNavigationComponent } from './shared/banner-navigation/banner-nav
 import { FooterComponent } from './shared/footer/footer.component';
 import { SolutionComponent } from './solution/solution.component';
 import { EstudioCasoDerivacionComponent } from './estudio-caso-derivacion/estudio-caso-derivacion.component';
+import { IntroduccionDiferenciacionComponent } from './introduccion-diferenciacion/introduccion-diferenciacion.component';
+import { SolucionDiferenciacionComponent } from './solucion-diferenciacion/solucion-diferenciacion.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { EstudioCasoDerivacionComponent } from './estudio-caso-derivacion/estudi
     FooterComponent,
     SolutionComponent,
     EstudioCasoDerivacionComponent,
+    IntroduccionDiferenciacionComponent,
+    SolucionDiferenciacionComponent,
   ],
   imports: [
     CommonModule,
