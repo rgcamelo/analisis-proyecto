@@ -83,4 +83,11 @@ export const referencias = [
       cita: '(Consuegra, J. L., 2022)',
       cita2: ''
     },
+    {
+      id: 13,
+      nombreReferencias: 'Mate.Math-University. (2021, 28 enero). 16 Aproximación de un área mediante Regla de Simpson [Vídeo]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=UL-ozA6OiuQ',
+      cita: '',
+      cita2: ''
+    },
 ]
