@@ -11,6 +11,10 @@ import { SolutionComponent } from './solution/solution.component';
 import { EstudioCasoDerivacionComponent } from './estudio-caso-derivacion/estudio-caso-derivacion.component';
 import { IntroduccionDiferenciacionComponent } from './introduccion-diferenciacion/introduccion-diferenciacion.component';
 import { SolucionDiferenciacionComponent } from './solucion-diferenciacion/solucion-diferenciacion.component';
+import { ReferenciasComponent } from './referencias/referencias.component';
+import { IntroduccionIntegracionComponent } from './introduccion-integracion/introduccion-integracion.component';
+import { EstudioCasoIntroduccionComponent } from './estudio-caso-introduccion/estudio-caso-introduccion.component';
+import { SolucionIntroduccionComponent } from './solucion-introduccion/solucion-introduccion.component';
 
 
 const routes: Routes = [
@@ -20,12 +24,14 @@ const routes: Routes = [
     children: [
       { path: '', component: BlogComponent },
       { path: 'blogDetail/:id', component: BlogDetailComponent },
-      { path: 'about', component: AboutComponent },
+      { path: 'referencias', component: AboutComponent },
       { path: 'solucion', component:SolutionComponent},
       { path: 'introduccion-diferenciacion',component:IntroduccionDiferenciacionComponent},
+      { path: 'introduccion-integracion',component:IntroduccionIntegracionComponent},
       { path: 'estudio-caso-diferenciacion',component:EstudioCasoDerivacionComponent},
+      { path: 'estudio-caso-integracion',component:EstudioCasoIntroduccionComponent},
       { path: 'solucion-diferenciacion',component:SolucionDiferenciacionComponent},
-
+      { path: 'solucion-integracion', component:SolucionIntroduccionComponent},
     ]
   }
 ];

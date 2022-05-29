@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolucionDiferenciacionComponent implements OnInit {
 
+  opcionSeleccionada:number =1;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  seleccionarOpcion(op:number){
+    this.opcionSeleccionada = op;
   }
 
 }

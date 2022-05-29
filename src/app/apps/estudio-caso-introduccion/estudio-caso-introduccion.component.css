@@ -1,0 +1,14 @@
+.opselect{
+    background-color: #316ce8;
+    color: white;
+    font-weight: 600;
+}
+
+.op{
+    cursor: pointer;
+}
+
+.img-next{
+    width: 25px;
+    height: 25px;
+}
