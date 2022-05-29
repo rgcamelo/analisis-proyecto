@@ -9,7 +9,7 @@
 }
 
 .fondo{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/assets/images/analisis/10.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('src/assets/images/analisis/10.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
